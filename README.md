@@ -16,6 +16,8 @@ geotrocities.com is my toy domain
 
 - added attribute dest_email
 
+- can I get it to send the deviceId?
+
 ### Lambda
 
 Automatically created a lambda function from the 1-click template. It kicks off an email via SES.
@@ -23,6 +25,12 @@ Automatically created a lambda function from the 1-click template. It kicks off 
 Modified the Lambda function so that it could see the dest_email attribute I added to the IoT template
 
 The function already had that, just didn't read the parameter
+
+#### Lambda function ideas
+
+get_clicks - return how many clicks have been received in total
+
+read dynamo and get a count
 
 ### SES
 
@@ -58,3 +66,25 @@ The function already had that, just didn't read the parameter
 
 #### MX
 - inbound-
+
+
+### Dynamo
+
+going to see about using deviceId as partition key
+
+### AWS Certificate Manager (ACM)
+
+Just created the certs for geotrocities and www.geotrocities.com - required for API Gateway
+
+## Future
+
+### Cognito
+- create user pool to associate clicks
+
+### API Gateway - get the number of clicks from lambda
+
+Looking at using the new HTTPS API
+
+need to create the Lambda first
+
+### CloudFront
