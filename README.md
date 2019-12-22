@@ -41,3 +41,20 @@ The function already had that, just didn't read the parameter
 ### S3
 
 #### Geotrocities static website
+
+#### Buckets
+- geotrocities.com - content
+- www.geotrocities.com - HTTP redirect
+
+#### Policies
+
+- policy applied to bucket under s3/geotrocities.com-bucket-policy.json
+
+### Route53
+
+#### A records
+- geotrocities. com -> bucket alias
+- www.geotrocities.com -> bucket alias
+
+#### MX
+- inbound-
