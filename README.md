@@ -1,6 +1,6 @@
 # General
 
-Button Claimed in us-west-2 rrezinas@gmail.com account
+Button Claimed in us-west-2 account
 
 geotrocities.com is my toy domain
 
