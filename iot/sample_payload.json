@@ -1,0 +1,33 @@
+{
+    "deviceInfo": {
+        "deviceId": "xxxxxxx",
+        "type": "button",
+        "remainingLife": 99.25,
+        "attributes": {
+            "projectRegion": "us-west-2",
+            "projectName": "ButtonFun",
+            "placementName": "home",
+            "deviceTemplateName": "emailFromButron"
+        }
+    },
+    "deviceEvent": {
+        "buttonClicked": {
+            "clickType": "LONG",
+            "reportedTime": "2019-12-23T04:35:38.584Z"
+        }
+    },
+    "placementInfo": {
+        "projectName": "ButtonFun",
+        "placementName": "home",
+        "attributes": {
+            "body": "body",
+            "subject": "Hello, World!",
+            "email": "xxx@gxxxxxxxx.com",
+            "dest_email": "xxx@xxxxxxx.com"
+        },
+        "devices": {
+            "emailFromButron": "xxxxxxx"
+        }
+    }
+}
+
