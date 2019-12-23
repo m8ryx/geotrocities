@@ -40,6 +40,8 @@ Modified the Lambda function so that it could see the dest_email attribute I add
 
 The function already had that, just didn't read the parameter
 
+- Lambda folder contains simple functions and tests
+
 ### Creating Lambda function
 
 #### Setup
@@ -99,6 +101,10 @@ The function already had that, just didn't read the parameter
 
 ### MX
 - inbound-
+
+## CloudWatch
+
+- Lambda logging enabled makes it easy to get a sample payload
 
 
 ## Dynamo
