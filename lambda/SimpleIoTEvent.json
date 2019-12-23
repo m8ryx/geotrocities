@@ -1,0 +1,11 @@
+{
+  "deviceInfo": {
+    "deviceId": "testdevice"
+  },
+  "deviceEvent": {
+    "buttonClicked": {
+      "clickType": "SINGLE",
+      "reportedTime": "2019-12-23T04:35:38.584Z"
+    }
+  }
+}
