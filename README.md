@@ -85,7 +85,7 @@ The function already had that, just didn't read the parameter
 
 ### Geotrocities static website
 
-URL: (widgets)[http://geotrocities.com/widgets.html]
+URL: [widgets](http://geotrocities.com/widgets.html)
 
 ### Buckets
 - geotrocities.com - content
