@@ -107,6 +107,7 @@ The function already had that, just didn't read the parameter
 - Lambda logging enabled makes it easy to get a sample payload
 
 
+
 ## Dynamo
 
 - Table name: IoTButtonClicks
@@ -128,5 +129,10 @@ Just created the certs for geotrocities and www.geotrocities.com - required for 
 - Looking at using the new HTTPS API
 
 - need to create the Lambda first
+
+- allow CloudWatch Logging
+  - per https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html
+  - APIGatewayCloudWatchPushRole
+    - arn:aws:iam::247070336958:role/APIGatewayCloudWatchPushRole
 
 ## CloudFront
