@@ -61,10 +61,9 @@ The function already had that, just didn't read the parameter
 - Using the blueprint microservice-http-endpoint-python
 -
 
-### Lambda function ideas
+### Lambda function
 
-- get_clicks - return how many clicks have been received in total
-
+- get_button_clicks - return how many clicks have been received in total
 - read dynamo and get a count
 
 ## SES
@@ -84,6 +83,8 @@ The function already had that, just didn't read the parameter
 ## S3
 
 ### Geotrocities static website
+
+URL: [widgets](http://geotrocities.com/widgets.html)
 
 ### Buckets
 - geotrocities.com - content
@@ -106,6 +107,7 @@ The function already had that, just didn't read the parameter
 
 - Lambda logging enabled makes it easy to get a sample payload
 
+- Created button-fun-api logging group
 
 
 ## Dynamo
@@ -128,7 +130,24 @@ Just created the certs for geotrocities and www.geotrocities.com - required for 
 
 - Looking at using the new HTTPS API
 
-- need to create the Lambda first
+### get_button_clicks
+
+#### URL
+https://1dbkv5mqkg.execute-api.us-west-2.amazonaws.com/get_button_clicks
+
+#### API name
+- get_button_clicks
+#### Integrations
+- get_button_clicks (Lambda)
+
+#### Routes
+- GET /get_button_clicks → get_button_clicks (Lambda)
+
+#### Stages
+- $default (Auto-deploy: enabled)
+
+#### Logging
+- button-fun-api cloudwatch log group, CLF Format
 
 - allow CloudWatch Logging
   - per https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html
