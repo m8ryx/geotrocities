@@ -31,6 +31,16 @@ geotrocities.com is my toy domain
 - aws iot1click-projects list-projects
 - aws iot1click-projects describe-project --project-name ButtonFun 
 
+## ACM
+
+- Created certificates for geotrociies.com and www.
+
+## CloudFront
+
+- certificate needed to use my own fancy domain
+- then point R53 at it
+
+
 
 ## Lambda
 
@@ -41,6 +51,11 @@ Modified the Lambda function so that it could see the dest_email attribute I add
 The function already had that, just didn't read the parameter
 
 - Lambda folder contains simple functions and tests
+
+## CORS
+
+- CORS needed to be added to the lambda function's return because of the proxy integration
+  - in the case of proxy integration, api gateway seliently shrugs it off
 
 ### Creating Lambda function
 
