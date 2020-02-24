@@ -22,7 +22,7 @@
           $.getJSON(api_gateway_url, function ( data ) {
             var items = [];
             $.each( data, function(key, val ) {
-              items.push( "<li id='" + val.type + "'>" + val.time + "</li>" );
+              items.push( "<li id='" + val.type + "'>" + val.time + " TYPE " + val.type + "</li>" );
             });
 
             $( "<ul/>", {
