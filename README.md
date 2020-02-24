@@ -80,6 +80,7 @@ The function already had that, just didn't read the parameter
 
 - get_button_clicks - return how many clicks have been received in total
 - read dynamo and get a count
+- the CORS lives here. But if it's broken, CORS doesn't get delivered. Probably (definitely) need to improve error handling.
 
 ## SES
 
