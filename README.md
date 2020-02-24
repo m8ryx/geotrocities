@@ -55,7 +55,7 @@ The function already had that, just didn't read the parameter
 ## CORS
 
 - CORS needed to be added to the lambda function's return because of the proxy integration
-  - in the case of proxy integration, api gateway seliently shrugs it off
+  - in the case of proxy integration, api gateway siliently shrugs it off
 
 ### Creating Lambda function
 
